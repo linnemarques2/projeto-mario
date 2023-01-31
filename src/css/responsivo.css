@@ -1,0 +1,35 @@
+@media (max-width: 1023px) {
+    body {
+        background-color: #f4433f;
+    }
+
+    .fundo-video {
+        display: none;
+    }
+
+    .container {
+        flex-wrap: wrap;
+        justify-content: center;
+        height: auto;
+        gap: 30px; /*separa os elementos*/
+    }
+
+    .container .mario {
+        max-width: 50%;        
+    }
+
+    .container .informacoes {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .container .descricao {
+        color: #ffffff;
+        text-align: center;
+    }
+
+    .container .botao-trailer {
+        background-color: #263238;
+    }
+}
